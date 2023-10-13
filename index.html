@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luan Tu's Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="https://photo.16pic.com/00/87/06/16pic_8706771_b.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- ---- Navbar Section ---- -->
+
+    <nav>
+      <a href="#"><img src="https://upload.wikimedia.org/wikipedia/en/1/11/YorkU_Logo.png" alt="Personal logo" /></a>
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#my-work">PROJECTS</a></li>
+        <li><a href="#contact-me">CONTACT</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <!-- ---- Hero Section ---- -->
+
+    <div class="header">
+      <span>
+        <h2>Web/App Developer</h2>
+        <h1>Hi, I'm Luan Tu from Toronto.</h1>
+      </span>
+      <img src="https://live.staticflickr.com/65535/53254415746_06490980ef_m.jpg" alt="Personal Photo" />
+    </div>
+    <hr />
+
+    <!-- ---- About Me Section ---- -->
+
+    <div class="about" id="about">
+      <h1>About me</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sequi
+        quidem, consequuntur doloribus magni culpa consectetur iste ut ad
+        officiis similique magnam ipsum asperiores! Deserunt illo iusto ullam
+        quisquam ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Illum nostrum alias magnam? Id, voluptate doloremque magnam
+        laudantium repellendus dolorum quas sed laboriosam distinctio quam
+        quidem error unde voluptatibus nisi illo.
+      </p>
+    </div>
+    <hr />
+
+    <!-- ---- My Work Section ----  -->
+
+    <div class="my-work" id="my-work">
+      <h1>Personal Projects and Works</h1>
+      <div class="project">
+        <a href="https://github.com/luantu1008/JavaTicTacToe" target="_blank">
+          <img src="https://live.staticflickr.com/65535/53254904585_33fb1afb74_m.jpg" alt="Java TicTacToe" />
+        </a>
+
+        <div class="description">
+          <h2><a href="https://github.com/luantu1008/JavaTicTacToe" target="_blank">Java TicTacToe Game</a></h2>
+          <h4>Languge used: Java</h4>
+        </div>
+      </div>
+
+      <div class="project">
+        <a href="https://github.com/luantu1008/Weekly_Schedule" target="_blank">
+          <img src="https://live.staticflickr.com/65535/53254766034_4668a0d3d4_m.jpg" alt="Weekly Schedule App" />
+        </a>
+
+        <div class="description">
+          <h2><a href="https://github.com/luantu1008/Weekly_Schedule" target="_blank">Weekly Schedule App</a></h2>
+          <h4>Language used: HTML, CSS, JS</h4>
+        </div>
+      </div>
+
+      <div class="project">
+        <a href="https://www.ifixit.com/Guide/Acer+Aspire+5+A515-54+Hard+Drive+Replacement/151709" target="_blank">
+          <img src="https://live.staticflickr.com/65535/53254904600_3306ede75b_m.jpg" alt="FastFix Acer 5" />
+        </a>
+
+        <div class="description">
+          <h2><a href="https://www.ifixit.com/Guide/Acer+Aspire+5+A515-54+Hard+Drive+Replacement/151709" target="_blank">Manual Guide: SSD upgrade for Acer Aspire 5</a></h2>
+          <h4>Work conducted and written by Luan Tu</h4>
+        </div>
+      </div>
+
+    </div>
+    <hr />
+
+    <!-- ---- Contact Me Section ---- -->
+
+    <div class="contact" id="contact-me">
+      <span class="contact-info">
+        <h1>Contact me</h1>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.971353802165!2d-79.50444868794662!3d43.77345347097612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cd330b767bfb%3A0xdbb899cc9da76d19!2sYork%20University!5e0!3m2!1sen!2sca!4v1697169528289!5m2!1sen!2sca"
+          width="350"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <h3>Connect me: </h5>
+          <ul>
+            <li>Tel: (647)-xxx-xxxx</li>
+            <li>Email: myemail@yorku.ca</li>
+            <li>
+              <a href=""><img src="img/fb_icon.png" alt="facebook"></a>
+              <a href="https://github.com/luantu1008" target="_blank"><img src="img/github_icon.png" alt="facebook"></a>
+              <a href=""><img src="img/IG_icon.png" alt="facebook"></a>
+              <a href=""><img src="img/linkedln_icon.png" alt="facebook"></a>
+            </li>
+          </ul>
+      </span>
+
+      <!-- ---- contact-form ---- -->
+
+      <span class="contact-form">
+        <h2>Leave me a message</h2>
+        <form action="">
+        <label for="name"> First Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="name"> Last Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+    
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br><br>
+    
+        <input type="submit" value="Submit">
+      </span>
+    </div>
+  </body>
+</html>

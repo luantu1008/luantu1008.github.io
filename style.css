@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@300&display=swap');
+
+
+/* ---- body --- */
+body {
+    padding: 0px;
+    margin: 0 20%;
+    background-color: linen;
+    font-family: poppins, sans-serif;
+
+}
+
+
+/* ---- navbar ---- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+nav img {
+    height: 60px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+nav ul li {
+    float: left;
+    padding: 0px 10px;
+    height: 100%;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding-top: 20px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: linen;
+    height: 100%;
+    border: 1px solid black;
+}
+
+/* ---- header-hero ---- */
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header span {
+    margin-top: 90px;
+}
+
+.header img { 
+    width: 350px;
+    height: 350px;
+}
+
+/* ---- project-section ---- */
+
+.project {
+    margin-bottom: 20px;
+
+}
+
+.project img {
+    margin-right: 20px;
+}
+
+.project {
+    display: flex;
+}
+
+.project img {
+    width: 250px;
+    height: 200px;
+}
+
+
+/* ---- Contact ----  */
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    /* Display children horizontally */
+    align-items: center;
+    /* Center children vertically */
+}
+
+.contact-info {
+    margin-right: 100px;
+    width: 50%;
+}
+
+.contact-info ul li {
+    padding-bottom: 10px;
+}
+
+.contact-info ul li img {
+    width: 30px;
+    padding-right: 5px;
+}
+
+.contact-form {
+    margin-top: 10px;
+    width: 50%;
+    border: 1px solid black;
+}
